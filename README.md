@@ -1,4 +1,4 @@
-# HW_W04_D01
+# ES6, ARROW FUNCTIONS, FOREACH(), MAP  
 
 
 ![taken](https://i.imgflip.com/1urxdd.jpg)
