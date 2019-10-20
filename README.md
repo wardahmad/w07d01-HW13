@@ -6,6 +6,7 @@
 
 ## PRACTICE all that we've covered in class today 
 - take a look at the js file included in this repository. follow each question and try to solve it. 
+- you don't have to solve all the questions , understanding is all that matters! 
 
 
 
