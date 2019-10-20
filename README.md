@@ -5,6 +5,9 @@
 
 
 ## PRACTICE all that we've covered in class today 
+- take a look at the js file included in this repository. follow each question and try to solve it. 
+
+
 
 ### `.forEach()` [read more here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
