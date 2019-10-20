@@ -8,6 +8,7 @@
 - take a look at the js file included in this repository. follow each question and try to solve it. 
 - you don't have to solve all the questions , understanding is all that matters! 
 
+____
 
 
 ### `.forEach()` [read more here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
