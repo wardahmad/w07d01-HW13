@@ -27,7 +27,7 @@
 
 
 #### Reminder
-Your opinion for this homework is very important! Please fill up the following questions when you pull request:
+- Your opinion for this homework is very important! Please fill up the following questions when you pull request:
 * on a scale from 1 to 5, how comfortable were you with this assignment?
 * How long did it take?
 * What was a challenge you had with this assignment?
