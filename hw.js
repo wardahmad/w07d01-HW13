@@ -61,13 +61,19 @@ shiftLetters('abcxyz')
 // - 2 of diamonds
 // - 3 of diamonds 
 
+var cards = ["spades","hearts","diamonds","clubs"]
+var ranks = ['ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'jack', 'queen', 'king']
+
+var resultarr = cards.forEach(element => ranks.forEach(rank => console.log(`${rank} of ${element}`)))
+console.log(resultarr)
+
+
+
+
+
 
 // B) Word Play
 // Create a form where users may enter a sentence.
 // Turn that sentence into an array using the split method.
 // Then, loop through this array to build a new array out of every word in the sentence that is 3 or more characters in length.
 // Finally, reverse the order of the new array, join it back together into a string, and display it to the user.
-
-
-
-
