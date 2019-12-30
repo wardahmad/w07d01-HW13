@@ -8,18 +8,32 @@
 // function to return a string where every other word is in all caps.
 // Hint: look up Array.prototype.map on MDN and see what arguments the .map callback can take.
 // ex: swapCase('hello stranger , what do we have today? ') // => " HELLO stranger , WHAT do WE have TODAY ?"
-var swapCase = function(string) {
-  // Codeeeee
+
+var splStr;
+var swapCase = (string) => {
+  splStr = string.split(' ');
+  //console.log(splStr)
+  splStr.map(str => console.log(str.toUpperCase()))
 };
+swapCase("hello world, whats aap")
 ​
 // B) Write a function shiftLetters that takes a string and uses .map to return an encoded string with each letter shifted down the
 // alphabet by one. Hint: Use Look up the JS functions String.fromCharCode() and String.charCodeAt() .
 // see if you can use Ascii code to acomplish this
 // ex. shiftLetters('hello') // => 'ifmmp'
 // ex. (shiftLetters('abcxyz') // => "bcdyz{"
-var shiftLetters = function(string) {
-  // code!
-};
+
+var splStr2;
+var shiftLetters = (string) => {
+  splStr2 = string.split('');
+  //console.log(splStr)
+  //splStr.map(str => console.log(String.fromCharCode(str)))
+  splStr2.map(str => console.log(String.fromCharCode(str).charCodeAt(/\A[a-zA-Z]+\z/))
+  )};
+
+shiftLetters('abcxyz')
+
+
 
 
 
