@@ -1,0 +1,15 @@
+<input type="text" name="string" id="capWords">
+
+<script>
+
+var str = document.getElementById("capWords").value;
+var spl = str.split(" ");
+//console.log(spl)
+var arr = [];
+
+var check = spl.filter(element => element.length >= 3);
+console.log(check.reverse().join())
+//var result = check.forEach(word => console.log(`${word} `))
+
+
+</script>

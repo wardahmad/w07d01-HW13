@@ -13,8 +13,14 @@ var splStr;
 var swapCase = (string) => {
   splStr = string.split(' ');
   //console.log(splStr)
-  splStr.map(str => console.log(str.toUpperCase()))
-};
+  //splStr.map(str => console.log(str.toUpperCase()))
+  splStr.map((str,i) => {if (i % 2 == 0){
+    console.log(str.toUpperCase())
+  }else{
+    console.log(str)
+  }
+  })
+}
 swapCase("hello world, whats aap")
 ​
 // B) Write a function shiftLetters that takes a string and uses .map to return an encoded string with each letter shifted down the
@@ -23,14 +29,12 @@ swapCase("hello world, whats aap")
 // ex. shiftLetters('hello') // => 'ifmmp'
 // ex. (shiftLetters('abcxyz') // => "bcdyz{"
 
-var splStr2;
 var shiftLetters = (string) => {
-  splStr2 = string.split('');
-  //console.log(splStr)
-  //splStr.map(str => console.log(String.fromCharCode(str)))
-  splStr2.map(str => console.log(String.fromCharCode(str).charCodeAt(/\A[a-zA-Z]+\z/))
-  )};
-
+  var splStr = string.split('');
+  var arrNum = splStr.map(char => char.charCodeAt())
+  var result = arrNum.map(num => String.fromCharCode(num+1))
+  console.log(result)
+  }
 shiftLetters('abcxyz')
 
 
@@ -78,11 +82,14 @@ console.log(resultarr)
 // Then, loop through this array to build a new array out of every word in the sentence that is 3 or more characters in length.
 // Finally, reverse the order of the new array, join it back together into a string, and display it to the user.
 
-var str = "hi my name is ward"
+var str =  prompt("Enter Sentence: ");
+
+//var str = "hi my name is ward"
 var spl = str.split(" ");
 //console.log(spl)
 var arr = [];
 
 var check = spl.filter(element => element.length >= 3);
-console.log(check)
-var result = check.forEach(word => console.log(`${word} `))
+var res = check.reverse().join(" ");
+console.log(res)
+//var result = check.forEach(word => console.log(`${word} `))
